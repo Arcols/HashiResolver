@@ -1,0 +1,8 @@
+with TAD_Pile; use TAD_Pile;
+with types_tests; use types_tests;
+
+package a_tester_pile is
+   
+   
+   
+end a_tester_pile;
