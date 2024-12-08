@@ -2,42 +2,6 @@
 
 HashiResolver est un projet visant à résoudre des grilles de Hashiwokakero (Hashi) en utilisant un algorithme de logique développé par notre groupe. Ce projet ne fait pas appel à des méthodes de force brute ou similaires.
 
-## Structure du projet
-
-Le projet est structuré comme suit :
-HashiResolver/ 
-├── .gitattributes 
-├── .gitignore 
-├── content.txt 
-├── hashi.gpr 
-├── LICENSE 
-├── README.md 
-├── src/ │ 
-    ├── corps/ 
-    │ │ ├── casehashi.adb 
-    │ │ ├── coordonnee.adb 
-    │ │ ├── grille.adb 
-    │ │ ├── ile.adb 
-    │ │ ├── orientation.adb 
-    │ │ ├── pont.adb 
-    │ │ ├── resolution_hashi.adb 
-    │ │ ├── tad_pile.adb 
-    │ │ ├── typecase.adb 
-    │ ├── specifications/ 
-    │ │ ├── case.ads 
-    │ │ ├── caseHashi.ads 
-    │ │ ├── coordonnee.ads 
-    │ │ ├── grille.ads 
-    │ │ ├── ile.ads 
-    │ │ ├── orientation.ads 
-    │ │ ├── pile_entier.ads 
-    │ │ ├── pont.ads 
-    │ │ ├── resolution_hashi.ads 
-    │ │ ├── TAD_Pile.ads 
-    │ │ ├── typecase.ads 
-    ├── tests/ 
-    │ ├── tests_resolution/ 
-    │ ├── Tests_TAD/
 ## Fonctionnalités
 
 - Résolution des grilles de Hashi en utilisant un algorithme de logique.
